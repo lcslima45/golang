@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Teste/aurora"
+	"http://github.com/logrusorgru/aurora"
 	"fmt"
 )
 
