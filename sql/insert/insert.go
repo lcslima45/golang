@@ -2,8 +2,7 @@ package main
 import (
 	"database/sql"
 	"fmt"
-	_ "github.com/go-sql-driver/mysql"
-)
+	)
 func main() {
 	db, err := sql.Open("mysql", "root:123456@/cursogo")
 	if err != nil {
@@ -18,4 +17,5 @@ func main() {
 	fmt.Println(id)
 	linhas, _ := res.RowsAffected()
 	fmt.Println(linhas)
+
 }
